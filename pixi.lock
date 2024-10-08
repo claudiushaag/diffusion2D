@@ -329,7 +329,7 @@ packages:
   name: diffusion2d
   version: 0.1.0
   path: .
-  sha256: 48dd5fc770b1cd78efc696bb77b7f020e87814113dbe2658cd553ef712ebf55a
+  sha256: be507d15a1682826569dc0471ed19910c3dc5c582967300685027c1f31e4ff47
   requires_python: '>=3.11'
   editable: true
 - kind: pypi
