@@ -2,7 +2,7 @@
 authors = [{name = "Claudius Haag", email = "claudius.haag@mib.uni-stuttgart.de"}]
 dependencies = []
 description = "This is a test for packaging!"
-name = "diffusion2D"
+name = "diffusion2Dclaudius"
 requires-python = ">= 3.11"
 version = "0.1.0"
 
@@ -19,7 +19,9 @@ channels = ["conda-forge"]
 platforms = ["win-64"]
 
 [tool.pixi.pypi-dependencies]
-diffusion2d = { path = ".", editable = true }
+diffusion2Dclaudius = { path = ".", editable = true }
+# diffusion2Dclaudius = { url = "https://test.pypi.org/project/diffusion2Dclaudius/"}
+pip = "*"
 build = "*"
 twine = "*"
 
